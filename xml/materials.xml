@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!-- -*- coding: utf-8; mode: SGML -*- -->
+
+<container n="materials" pn="Materiales y Secciones" help="Seleccione o edite el tipo de material que sea de su interes" tree_state='open'>
+	<blockdata n='material' name='Propiedad (Copiar +)' sequence='1' editable_name='unique' morebutton="0">
+		<value n="mat" pn=":::---MATERIAL---::" state='disabled' />
+		<value n="mod_elast" pn="Modulo de elasticidad" v='21.5E9' unit_magnitude="F/L^2" units="N/m^2" />
+		<value n="mod_poisson" pn="Modulo de Poisson" v='0.2' state='hidden' />
+		<value n="sec" pn=":::---SECCION---::" state='disabled' />
+		<value n='iner' pn='Inercia de seccion' v='16E-4' unit_magnitude="F/L^2" units="N/m^2"/>
+		<value n='area' pn='Area de seccion'  state='hidden' v='0.12'/>
+		<value n='mod_timo' pn='Kz (Timoshenko) de seccion' state='hidden' v='0.83'/>
+		<value n='t_an' pn='Tipo de analisis' v='111' state='hidden'/>
+	</blockdata>
+</container>

@@ -1,0 +1,6 @@
+<container n="grado_apoyos" pn="Tipo de apoyos" help="Seleccione el tipo de analisis de vigas" tree_state='open'>
+	<blockdata n='grado_apoyo' name='Insertar valores' icon="darkorange-bracket" sequence='1' editable_name='unique' morebutton="0" state='hidden'/>
+	<blockdata n='grado_apoyo' name='Simple' icon="darkorange-wind-sign" sequence='1' editable_name='unique' morebutton="0" state='disabled'/>
+	<blockdata n='grado_apoyo' name='Fijo' icon="darkorange-bracket" sequence='1' editable_name='unique' morebutton="0" state='disabled'/>
+	<blockdata n='grado_apoyo' name='Empotrado' icon="darkorange-bracket" sequence='1' editable_name='unique' morebutton="0" state='disabled'/>
+</container>
